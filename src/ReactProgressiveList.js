@@ -31,7 +31,7 @@ type State = {
   numRenderRows: number
 };
 
-class ReactProgressiveList extends React.PureComponent<Props, State> {
+class ReactProgressiveList extends React.Component<Props, State> {
   props: Props;
   state: State;
 
